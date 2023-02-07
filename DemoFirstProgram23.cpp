@@ -5,7 +5,7 @@ int main()
 {
     string str;
     cout<<"Enetr your Name";
-    cin>>str;
+    getline(cin,str);
         
     cout<<"Welcome "<<str;
         
